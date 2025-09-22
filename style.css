@@ -1,0 +1,118 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+   min-height: 100vh;        
+  display: flex;  
+  flex-direction: column; 
+  
+}
+
+section {
+  flex: 1;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #600000;
+  color: #fff;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin-left: 1.5rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color:  #FFF5E1;
+  text-decoration: underline;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(to right, #FFDAB9, #FFFFFF);
+  padding: 150px;
+  color: #600000;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #440000;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.hero .btn:hover {
+  background: #880000;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #600000;
+  color: #fff;
+}
+
+footer .socials a {
+  margin: 0 0.5rem;
+  color:  #FFF5E1;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  header nav ul li {
+    margin: 0.5rem 0;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
