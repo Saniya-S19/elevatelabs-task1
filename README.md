@@ -24,6 +24,7 @@ This is a **simple, responsive landing page** built using **HTML and CSS**. It f
 ├── style.css
 
 ## Screenshots
+![Screenshot] (screenshot.png)
 
 
 ## Author
