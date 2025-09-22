@@ -24,7 +24,7 @@ This is a **simple, responsive landing page** built using **HTML and CSS**. It f
 ├── style.css
 
 ## Screenshots
-![Screenshot] (screenshot.png)
+![Screenshot] (https://github.com/Saniya-S19/elevatelabs-task1/blob/main/screenshot.png)
 
 
 ## Author
