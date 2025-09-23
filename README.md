@@ -14,8 +14,7 @@ This is a **simple, responsive landing page** built using **HTML and CSS**. It f
 
 ## Technologies Used
 - HTML5
-- CSS3 (including Flexbox and gradient backgrounds)
-- Responsive design with media queries
+- CSS3
 
 ## File Structure
 /project-folder
